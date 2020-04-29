@@ -75,15 +75,3 @@ app.get('/',function(req,res){
 server.listen(port,function(){
     console.log('server is listening at http://' + ip.address()+":"+port);
 });
-
-
-
-//var port= 8080;
-//var users=[];
-
-//io.on('connection',function(socket){
- //   console.log('new connection');
-   // socket.on('disconnect',function(){
-     //   console.log('user disconnected')
-    //})
-//});

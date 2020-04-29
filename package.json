@@ -1,0 +1,44 @@
+{
+  "name": "node-chatting-app",
+  "version": "1.0.0",
+  "description": "This is a chatting app",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MaddySF7/ChatEck.git"
+  },
+  "keywords": [
+    "NPM",
+    "Node",
+    "socket.io",
+    "express"
+  ],
+  "author": "Arpan Guria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaddySF7/ChatEck/issues"
+  },
+  "homepage": "https://github.com/MaddySF7/ChatEck#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "build": "^0.1.4",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.9.10",
+    "nodemon": "^2.0.3",
+    "path": "^0.12.7",
+    "socket.io": "^2.3.0"
+  },
+  "config": {
+    "server": {
+      "port": 8080
+    },
+    "db": {
+      "url": "mongodb://localhost:27017/chatdb"
+    }
+  }
+}
